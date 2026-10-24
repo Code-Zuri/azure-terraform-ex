@@ -1,0 +1,20 @@
+﻿# Estados y planes de Terraform
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfplan
+
+# Variables locales y credenciales
+terraform.tfvars
+terraform.tfvars.json
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
